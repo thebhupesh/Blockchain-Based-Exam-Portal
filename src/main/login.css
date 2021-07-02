@@ -1,0 +1,106 @@
+body.bdy{
+    background-image: url('images/login_bg.jpg');
+    background-size: cover;
+    max-width: 100%;
+    margin-top: 0%;
+}
+h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 375%;
+    line-height: 140%;
+    position: absolute;
+    left: 36.1%;
+}
+h2 {
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 156.25%;
+    line-height: 55%;
+    color: #FFFFFF;
+    position: absolute;
+    top: 15.5%;
+    left: 37%;
+}
+div.line {
+    height: 0.7%;
+    width: 45%;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 27.5%;
+    top: 15%;
+}
+div.box1 {
+    position: absolute;
+    width: 426px;
+    height: 340px;
+    left: 33%;
+    top: 29%;
+    opacity: 0.2;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.521), 0 6px 20px 0 rgba(255, 255, 255, 0.521);
+}
+div.box2 {
+    position: absolute;
+    width: 425px;
+    height: 340px;
+    left: 33%;
+    top: 29%;
+    opacity: 1;
+}
+.box2 h3 {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+}
+div.line1 {
+    height: 0.6%;
+    width: 15%;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 20%;
+    top: 17.5%;
+}
+div.line2 {
+    height: 0.6%;
+    width: 15%;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 65%;
+    top: 17.5%;
+}
+img.icon {
+    width: 6.5%;
+    position: relative;
+    top: 8px;
+}
+input.in {
+    width: 92%;
+    height: 10%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    top: 14px;
+}
+input[type=checkbox]:hover {
+    cursor: pointer;
+}
+#label:hover {
+    cursor: pointer;
+}
+::placeholder {
+    color: #FFFFFF;
+}
+[contenteditable] {
+      outline: 0px solid transparent;
+}

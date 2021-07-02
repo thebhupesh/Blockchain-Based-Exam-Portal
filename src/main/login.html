@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <title>Exam-Portal</title>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link type="text/css" rel="stylesheet" href="login.css">
+	<script src="functions.js"></script>
+	<body class="bdy">
+		<div style="padding-top: 0.7%;">
+			<h1>Exam-Portal</h1>
+			<div class="line"></div>
+			<h2>Secure Examination System</h2>
+		</div>
+		<div class="w3-panel w3-round-xlarge w3-white box1"></div>
+		<div class="w3-panel w3-round-xlarge box2">
+			<div style="position: relative; top: -5%;">
+				<br><div class="line1"></div><h3 class="w3-text-white">LOGIN</h3><div class="line2"></div><br>
+                <form action="login.php" method="post">
+                    <div><img src="images/user.png" class="icon"> <input class="in" contenteditable="true" type="text" placeholder="Enter Username" name="user" onkeyup="this.value = this.value.toUpperCase()" required></div>
+                    <hr>
+                    <div><img src="images/password.png" class="icon"> <input class="in" contenteditable="true" type="password" minlength="8" placeholder="Enter Password" name="pwd" id="pwd" required></div>
+                    <hr>
+                    <div class="w3-text-white" style="font-family: Montserrat; font-weight: lighter;">
+						<input type="checkbox" id="show" onclick="password()"> 
+						<label id="label" for="show"> Show Password</label>
+					</div>
+                    <input type="hidden" value="login" name="type">
+					<br><div class="w3-center" style="font-family: Montserrat; color: #0F2653; font-weight: bold;"><button class="w3-button w3-white w3-hover-black w3-round-xxlarge" type="sign_in">Login</button></div>
+                </form>
+			</div>
+		</div>
+    </body>
+</html>
