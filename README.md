@@ -4,10 +4,16 @@ It uses two step verification for validating the users and makes use of SHA1 enc
 It includes basic functionalities like randomize questions, encrypt questions etc.
 It stores basic details of examinations, faculties and students in MySQL database and uses MongoDB to store questions and question sequence of students.
 Examinations are created and controlled by the faculties.
+
 ## Objective
 Primary objective of this project is to introduce the use of blockchain technology in examination system to make them more secure and isolated for tampering.
+
 ## Prerequisite Software
 1. Wamp Server
 2. MongoDB
 3. Ganache
 4. Metamask Extension for browser
+
+## Screenshots
+![image](https://user-images.githubusercontent.com/81607715/133925667-3c0d51fd-2a04-4e4e-a505-37354a9d3fcf.png)
+
